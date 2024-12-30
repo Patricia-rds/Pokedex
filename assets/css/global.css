@@ -1,0 +1,39 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f6f8fc;
+}
+
+header {
+    text-align: center;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.content .pokebola {
+    width: 80px;
+    margin: 2rem 0 2rem 2rem;
+}
+
+.pokedex {
+    margin-right: 85rem;
+    width: 260px;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
